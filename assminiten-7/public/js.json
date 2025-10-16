@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "title": "Website Redesign",
+    "description": "Revamp the landing page layout, improve navigation flow, and optimize visuals to increase conversion rates and visitor engagement.",
+    "customer": "TechNova Ltd.",
+    "customerCode": "TNL01",
+    "priority": "High",
+    "status": "open",
+    "createdAt": "2025-10-01T09:00:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Database Optimization",
+    "description": "Enhance database performance by adding missing indexes, rewriting slow queries, and reducing response time for user requests.",
+    "customer": "DataFlow Inc.",
+    "customerCode": "DFI02",
+    "priority": "Medium",
+    "status": "open",
+    "createdAt": "2025-09-28T14:30:00Z"
+  },
+  {
+    "id": 3,
+    "title": "Mobile App UI Update",
+    "description": "Redesign profile and settings screens using a modern color palette, improved icons, and better user accessibility flow.",
+    "customer": "AppSpark",
+    "customerCode": "ASP03",
+    "priority": "High",
+    "status": "open",
+    "createdAt": "2025-09-30T11:20:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Security Audit",
+    "description": "Perform full backend vulnerability testing, identify potential exploits, and provide actionable fixes to strengthen system defenses.",
+    "customer": "SecureNet",
+    "customerCode": "SNT04",
+    "priority": "High",
+    "status": "open",
+    "createdAt": "2025-09-26T08:45:00Z"
+  },
+  {
+    "id": 5,
+    "title": "Email Automation Setup",
+    "description": "Integrate onboarding and billing workflows, automate follow-up emails, and ensure proper SMTP configuration for reliable delivery.",
+    "customer": "CloudWave",
+    "customerCode": "CLW05",
+    "priority": "Medium",
+    "status": "open",
+    "createdAt": "2025-09-29T10:00:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Payment Gateway Integration",
+    "description": "Add Stripe integration, test all payment endpoints, handle refunds securely, and implement error logging for failed transactions.",
+    "customer": "EcomX",
+    "customerCode": "ECX06",
+    "priority": "High",
+    "status": "open",
+    "createdAt": "2025-10-02T16:15:00Z"
+  },
+  {
+    "id": 7,
+    "title": "Content Migration",
+    "description": "Transfer all blog articles from old CMS, maintain SEO structure, and verify media links work properly after migration.",
+    "customer": "MediaCore",
+    "customerCode": "MDC07",
+    "priority": "Medium",
+    "status": "open",
+    "createdAt": "2025-09-27T12:30:00Z"
+  },
+  {
+    "id": 8,
+    "title": "Analytics Dashboard",
+    "description": "Develop a real-time dashboard that visualizes sales metrics, user activity, and conversion data with filter and export options.",
+    "customer": "VisionSoft",
+    "customerCode": "VSF08",
+    "priority": "High",
+    "status": "open",
+    "createdAt": "2025-10-03T13:40:00Z"
+  },
+  {
+    "id": 9,
+    "title": "Cloud Deployment",
+    "description": "Deploy microservices on AWS using ECS and Fargate, ensure autoscaling, and implement monitoring for uptime and resource usage.",
+    "customer": "SkyCloud",
+    "customerCode": "SKC09",
+    "priority": "High",
+    "status": "open",
+    "createdAt": "2025-10-05T09:10:00Z"
+  },
+  {
+    "id": 10,
+    "title": "UI Bug Fixes",
+    "description": "Resolve component layout issues, correct inconsistent margins and colors, and verify responsive behavior across major devices.",
+    "customer": "PixelWorks",
+    "customerCode": "PXW10",
+    "priority": "Low",
+    "status": "open",
+    "createdAt": "2025-09-25T17:00:00Z"
+  },
+  {
+    "id": 11,
+    "title": "API Documentation",
+    "description": "Create structured API reference, include request examples, response codes, and detailed authentication workflow for developers.",
+    "customer": "OpenHub",
+    "customerCode": "OPH11",
+    "priority": "Medium",
+    "status": "open",
+    "createdAt": "2025-10-04T15:50:00Z"
+  },
+  {
+    "id": 12,
+    "title": "Performance Testing",
+    "description": "Run load and stress tests on backend endpoints, identify bottlenecks, and propose improvements for faster performance handling.",
+    "customer": "Testify Labs",
+    "customerCode": "TSL12",
+    "priority": "High",
+    "status": "open",
+    "createdAt": "2025-09-30T10:30:00Z"
+  },
+  {
+    "id": 13,
+    "title": "CRM Integration",
+    "description": "Connect internal sales tools with Salesforce API, sync leads and activities, and automate customer updates between both systems.",
+    "customer": "BizConnect",
+    "customerCode": "BZC13",
+    "priority": "Medium",
+    "status": "open",
+    "createdAt": "2025-10-06T07:45:00Z"
+  },
+  {
+    "id": 14,
+    "title": "User Feedback System",
+    "description": "Develop a feedback modal for collecting user opinions, store data in analytics, and display insights in the dashboard.",
+    "customer": "Feedbackly",
+    "customerCode": "FDB14",
+    "priority": "Low",
+    "status": "open",
+    "createdAt": "2025-10-07T09:25:00Z"
+  },
+  {
+    "id": 15,
+    "title": "SEO Optimization",
+    "description": "Enhance site ranking by refining meta tags, improving load speed, optimizing content keywords, and fixing broken internal links.",
+    "customer": "WebBoost",
+    "customerCode": "WBS15",
+    "priority": "Medium",
+     "status": "open",
+    "createdAt": "2025-09-24T08:10:00Z"
+  }
+]
