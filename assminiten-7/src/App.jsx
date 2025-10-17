@@ -1,47 +1,42 @@
 import { Suspense, useState } from 'react'
-
+import { toast, ToastContainer} from 'react-toastify';
 import './App.css'
 import Navbar from './navbar/Navbar'
 import Banner from './navbar/banner/Banner'
 import TikitCards from './tikitcards/TikitCards'
 import TaskStatus from './assets/taskStatus/taskStatus/TaskStatus'
 
-import { ToastContainer } from 'react-toastify';
 import Completetax from './assets/taskStatus/taskStatus/Completetax'
 
 
 
 
 const tikitPromis = async () => {
-  const res = await fetch('/public/js.json');
+  const res = await fetch('/js.json');
   return res.json()
 }
 const tikis = tikitPromis()
 
 
 function App() {
+  const [progress, setProgress] = useState([])
   const [resolved, setResolved] = useState([])
 
   const hendelresoved = (reso) => {
     // console.log(reso)
-    const resov = [...resolved, reso]
-    setResolved(resov)
-    console.log(resolved)
+    const Felterprogres = progress.filter((tik) => tik.id !== reso.id)
+
+    setResolved([...resolved, reso])
+    setProgress(Felterprogres)
+    toast('Tikit Is Copmletd')
   }
-
-
-  const [progress, setProgress] = useState([])
-
   const hendelclick = (data) => {
     // console.log(data)
     const progres = [...progress, data];
     setProgress(progres)
+    toast('Tikit Card Select')
+
   }
-  // console.log(progress)
-
-
-
-
   return (
     <>
 
@@ -57,12 +52,12 @@ function App() {
         </section>
         <section className=" w-full md:w-[20%] h-[100px]">
           <TaskStatus hendelresoved={hendelresoved} progress={progress}></TaskStatus>
-        <Completetax resolved={resolved} ></Completetax>
+          <Completetax resolved={resolved} ></Completetax>
         </section>
       </div>
 
 
-      <ToastContainer />
+       <ToastContainer />
     </>
   )
 }

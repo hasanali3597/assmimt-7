@@ -2,8 +2,7 @@ import React from 'react';
 import vectorLeft from "../../assets/vector1.png";
 
 const Banner = ({ progress, resolved }) => {
-    const filterdata = progress.filter(progres => progres.status === "open");
-    //   console.log(filterdata.length)
+    
     return (
 
         <div className="flex flex-col md:flex-row mt-4 justify-center items-center gap-4 px-4">
@@ -11,7 +10,7 @@ const Banner = ({ progress, resolved }) => {
                 <img src={vectorLeft} />
                 <div>
                     <h3 className="text-white text-xl sm:text-2xl font-semibold mb-2">Progress</h3>
-                    <span className="text-white text-2xl font-bold">{filterdata.length}</span>
+                    <span className="text-white text-2xl font-bold">{progress?.length}</span>
                 </div>
                 <img src={vectorLeft} className="transform scale-x-[-1]" alt="" />
             </div>
