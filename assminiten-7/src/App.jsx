@@ -1,5 +1,5 @@
 import { Suspense, useState } from 'react'
-import { toast, ToastContainer} from 'react-toastify';
+import { toast, ToastContainer } from 'react-toastify';
 import './App.css'
 import Navbar from './navbar/Navbar'
 import Banner from './navbar/banner/Banner'
@@ -46,7 +46,7 @@ function App() {
       <div className="container mx-auto mt-3 flex flex-col md:flex-row gap-4">
 
         <section className=" w-full md:w-[80%]">
-          <Suspense fallback={<h1>Loading...</h1>}>
+          <Suspense fallback={<span className="loading loading-spinner text-error"></span>}>
             <TikitCards hendelclick={hendelclick} tikis={tikis} />
           </Suspense>
         </section>
@@ -57,7 +57,7 @@ function App() {
       </div>
 
 
-       <ToastContainer />
+      <ToastContainer />
     </>
   )
 }

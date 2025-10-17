@@ -6,7 +6,7 @@ const TaskStatus = ({ progress, hendelresoved }) => {
 
     return (
         <div className='container mx-auto'>
-            <h1 className='font-bold text-2xl'>Task Status</h1>
+            <h1 className='font-bold text-2xl ml-2'>Task Status</h1>
             <div>
 
                 {

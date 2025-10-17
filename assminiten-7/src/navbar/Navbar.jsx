@@ -9,17 +9,19 @@ const Navbar = () => {
                     <a class="btn btn-ghost text-xl">CS — Ticket System</a>
                 </div>
 
-                <div class={'flex list-none gap-3 items-center'}>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">FAQ</a></li>
-                    <li><a href="">Changelog</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Download</a></li>
-                    <li><a href="">Contact</a></li>
+                <div className="list-none gap-3 items-center flex">
+                    <li className="hidden md:block"><a href="">Home</a></li>
+                    <li className="hidden md:block"><a href="">FAQ</a></li>
+                    <li className="hidden md:block"><a href="">Changelog</a></li>
+                    <li className="hidden md:block"><a href="">Blog</a></li>
+                    <li className="hidden md:block"><a href="">Download</a></li>
+                    <li className="hidden md:block"><a href="">Contact</a></li>
 
-                    <button class={'bg-gradient-to-r from-[#632ee3] to-[#9f62f2] py-2 px-4 text-white text-[1rem] font-semibold hover:from-lime-300 hover:to-amber-600  rounded-xl'}> + New Ticket</button>
-
+                    <button className="bg-gradient-to-r from-[#632ee3] to-[#9f62f2] py-2 px-4 text-white text-[1rem] font-semibold hover:from-lime-300 hover:to-amber-600 rounded-xl">
+                        + New Ticket
+                    </button>
                 </div>
+
 
 
             </div>
