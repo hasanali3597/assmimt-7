@@ -7,6 +7,7 @@ import TikitCards from './tikitcards/TikitCards'
 import TaskStatus from './assets/taskStatus/taskStatus/TaskStatus'
 
 import Completetax from './assets/taskStatus/taskStatus/Completetax'
+import Footer from '../footer/Footer';
 
 
 
@@ -55,6 +56,7 @@ function App() {
           <Completetax resolved={resolved} ></Completetax>
         </section>
       </div>
+      <Footer></Footer>
 
 
       <ToastContainer />
